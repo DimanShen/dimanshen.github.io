@@ -2,30 +2,10 @@ _site/*
 _theme_packages/*
 
 Thumbs.db
+.DS_Store
 
 !.gitkeep
 
 .rbenv-version
 .rvmrc
 /vendor
-
-*.pkl
-*.swp
-*.pickle
-*.bin
-*.zip
-*.h5
-*.npy
-*.vgp
-*.gn
-*.both
-*.en
-*.it
-*.idea
-*.DS_Store
-
-.ipynb_checkpoints
-**/*.ipynb_checkpoints/
-
-*.pyc
-**/*.pyc
