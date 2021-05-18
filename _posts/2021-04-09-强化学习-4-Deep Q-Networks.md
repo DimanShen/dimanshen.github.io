@@ -89,7 +89,7 @@ Dueling DQN 将 Q-Function 的计算分成了状态价值和动作增益两部�
 
 论文链接：[Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)，DeepMind，2015
 
-PER 是对 Experience Replay 的改进，论文里认为那些导致估计和目标有更大差异的 experience 蕴含了更丰富的知识，即这样的experience 更有价值，但其发生的频率可能比较低，所以应该针对性地给予更高的 priority。
+PER 是对 Experience Replay 的改进，论文里认为那些导致估计和目标有更大差异的 experience 蕴含了更丰富的知识，即这样的 experience 更有价值，但其发生的频率可能比较低，所以应该针对性地给予更高的 priority。
 
 PER 通过 Stochastic Prioritization 和 Importance Sampling（IS）来定义 experience 的优先级从而更改采样分布，其中 Stochastic Prioritization 是一种在 pure greedy prioritization 和 uniform random sampling 之前进行插值来定义优先级的方式，而 Importance Sampling 则主要用于 debias，对偏差进行退火。
 
